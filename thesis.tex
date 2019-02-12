@@ -8,12 +8,14 @@
 \title{Document Title}
 \author{Author Name}
 
+\makeatletter
+\let\runauthor\@author
+\let\runtitle\@title
 
 \pagestyle{fancy}
 \fancyhead{}
-\fancyhead[L]{\title}
-\fancyhead[R]{Szymon Jackiewicz}
-\fancyfoot{}
+\fancyhead[L]{\runtitle}
+\fancyhead[R]{\runauthor}
 \fancyfoot[C]{\thepage}
 
 % Thesis format that corresponds to the Newcastle University standards
@@ -27,5 +29,6 @@
 \tableofcontents
 \newpage
 
+% Put your document here!
 
 \end{document}
