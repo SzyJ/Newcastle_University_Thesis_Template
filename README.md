@@ -7,7 +7,7 @@ On Mac and Linux use the following command in a desired folder to generate a new
 curl https://raw.githubusercontent.com/SzyJ/Newcastle_University_Thesis_Template/master/thesis.tex >> thesis.tex
 ```
 
-On Windows copy the code from this link and put it in a new `.tex` file.
+On Windows copy the code from this link and paste it into a new `.tex` file.
 ```
 https://raw.githubusercontent.com/SzyJ/Newcastle_University_Thesis_Template/master/thesis.tex
 ```
